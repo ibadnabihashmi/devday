@@ -1,0 +1,707 @@
+[
+    {
+        "_id": "53d861a63e1101af75159f68",
+        "userID": {
+            "_id": "53d861a63e1101af75159f67",
+            "email": "travis.swartzentruber@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 38000,
+        "ca-d-5": 2001,
+        "ca-d-4": "3.5",
+        "ca-d-2": "traditional",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "53f4ee322779d58713dc1ab2",
+        "userID": {
+            "_id": "53f4ee2e2779d58713dc1ab1",
+            "email": "kristyjkramer@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 35000,
+        "ca-d-5": 1992,
+        "ca-d-4": "2.78",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "53fe2b8a795bb62f4986b98c",
+        "userID": {
+            "_id": "53fe2b82795bb62f4986b98b",
+            "email": "billingsbunch@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 45000,
+        "ca-d-5": 1984,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "540f666db1f6b14060d56747",
+        "userID": {
+            "_id": "540f6669b1f6b14060d56746",
+            "email": "jenpisano@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 50000,
+        "ca-d-5": null,
+        "ca-d-4": "",
+        "ca-d-2": "",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "54208a46e4df3ef579ddd41f",
+        "userID": {
+            "_id": "54208a42e4df3ef579ddd41e",
+            "email": "jgaude2@hotmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 46000,
+        "ca-d-5": 1987,
+        "ca-d-4": "2.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "5421fe17e4df3ef579ddd42d",
+        "userID": {
+            "_id": "5421fcf6e4df3ef579ddd42c",
+            "email": "paulcamasto@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 52000,
+        "ca-d-5": 2014,
+        "ca-d-4": "2.8",
+        "ca-d-2": "online",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "542222a2e4df3ef579ddd435",
+        "userID": {
+            "_id": "542222a2e4df3ef579ddd434",
+            "email": "farmerlynn@hotmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": null,
+        "ca-d-4": "",
+        "ca-d-2": "online",
+        "ca-d-1": "aa"
+    },
+    {
+        "_id": "54249ddbe4df3ef579ddd4a2",
+        "userID": {
+            "_id": "54249dd7e4df3ef579ddd4a1",
+            "email": "bigbseehagen@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2011,
+        "ca-d-4": "3.5",
+        "ca-d-2": "traditional",
+        "ca-d-1": "aa"
+    },
+    {
+        "_id": "5429d9a0e4df3ef579ddd4b9",
+        "userID": {
+            "_id": "5429d99fe4df3ef579ddd4b8",
+            "email": "murraykai@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2004,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "542c20ede4df3ef579ddd598",
+        "userID": {
+            "_id": "542c20ede4df3ef579ddd597",
+            "email": "neecyp1@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 25000,
+        "ca-d-5": 1975,
+        "ca-d-4": "4.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "542d44fee4df3ef579ddd67b",
+        "userID": {
+            "_id": "542d44f3e4df3ef579ddd67a",
+            "email": "bdillon@cox.net",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 50000,
+        "ca-d-5": 1981,
+        "ca-d-4": "2.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "54331365e4df3ef579ddd76b",
+        "userID": {
+            "_id": "54331362e4df3ef579ddd76a",
+            "email": "brian.mccalley89@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2013,
+        "ca-d-4": "",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "5436f9e1700ec92b35c88021",
+        "userID": {
+            "_id": "5436f9e1700ec92b35c88020",
+            "email": "johncollison@cox.net",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1986,
+        "ca-d-4": "",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "543c3f38720685a23fcd47af",
+        "userID": {
+            "_id": "543c3f33720685a23fcd47ae",
+            "email": "mark.kruckenberg@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 50000,
+        "ca-d-5": 2008,
+        "ca-d-4": "3.0",
+        "ca-d-2": "online",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "543eb301720685a23fcd4805",
+        "userID": {
+            "_id": "543eb2fd720685a23fcd4804",
+            "email": "kimberlienatalieleslie@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 1997,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "54401685720685a23fcd486c",
+        "userID": {
+            "_id": "5440167f720685a23fcd486b",
+            "email": "ianedgerton@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 2014,
+        "ca-d-4": "3.5",
+        "ca-d-2": "online",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "5446fd55484a303638a511bf",
+        "userID": {
+            "_id": "5446fd4f484a303638a511be",
+            "email": "randallemiller@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 27800,
+        "ca-d-5": null,
+        "ca-d-4": "3.2",
+        "ca-d-2": "online",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "5449ca6d3ff6a4826592c96f",
+        "userID": {
+            "_id": "5449ca6d3ff6a4826592c96e",
+            "email": "msignoracci@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2003,
+        "ca-d-4": "2.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "5458476c751eb3146969ab22",
+        "userID": {
+            "_id": "54584767751eb3146969ab21",
+            "email": "marmee0321@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 70,
+        "ca-d-5": null,
+        "ca-d-4": "3.8",
+        "ca-d-2": "online",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "545a24fad399ce9c6fb51483",
+        "userID": {
+            "_id": "545a24efd399ce9c6fb51482",
+            "email": "eamparan@icloud.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 48000,
+        "ca-d-5": 2011,
+        "ca-d-4": "3.9",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "545df92c5d9ab2b32c8af923",
+        "userID": {
+            "_id": "545df9165d9ab2b32c8af922",
+            "email": "anne.fisher84@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 42500,
+        "ca-d-5": 2004,
+        "ca-d-4": "3.7",
+        "ca-d-2": "online",
+        "ca-d-1": "aa"
+    },
+    {
+        "_id": "5460d677a121fe6a57740643",
+        "userID": {
+            "_id": "5460d677a121fe6a57740642",
+            "email": "jamie.bird77@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 45000,
+        "ca-d-5": 2008,
+        "ca-d-4": "3.4",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "546ab5d8067d95300dfad2b6",
+        "userID": {
+            "_id": "546ab5d8067d95300dfad2b5",
+            "email": "wessfamily@me.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 75,
+        "ca-d-5": 1997,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "546f91391d9622844793580a",
+        "userID": {
+            "_id": "546f91391d96228447935809",
+            "email": "jenhoffiz@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1988,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "5474962d2f913c164a7856bb",
+        "userID": {
+            "_id": "547496282f913c164a7856ba",
+            "email": "mowbz007@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2001,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "5474beb62f913c164a7856c5",
+        "userID": {
+            "_id": "5474beaa2f913c164a7856c4",
+            "email": "dmgasser@cox.net",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1989,
+        "ca-d-4": "3.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "547cbb8ec784c3a961992e8c",
+        "userID": {
+            "_id": "547cbb8ac784c3a961992e8b",
+            "email": "altayboran@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 24000,
+        "ca-d-5": 2012,
+        "ca-d-4": "3.2",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "547d4d49c784c3a961992ee0",
+        "userID": {
+            "_id": "547d4d42c784c3a961992edf",
+            "email": "drpullon@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 30000,
+        "ca-d-5": 1992,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "548102e6c784c3a961992ff5",
+        "userID": {
+            "_id": "548102e3c784c3a961992ff4",
+            "email": "hgriffi1@asu.edu",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 22000,
+        "ca-d-5": 2015,
+        "ca-d-4": "3.22",
+        "ca-d-2": "traditional",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "54839bbcfaa54836668cf085",
+        "userID": {
+            "_id": "54839bb4faa54836668cf084",
+            "email": "jmarchica@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1991,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "548872aa88b059bb255af0d9",
+        "userID": {
+            "_id": "548872a588b059bb255af0d8",
+            "email": "chris.cowell@pinnaclecart.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": null,
+        "ca-d-4": "",
+        "ca-d-2": "",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "548b51c1379e9cf71fbb5189",
+        "userID": {
+            "_id": "547f2266c784c3a961992f4a",
+            "email": "toddjshackelford@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 48000,
+        "ca-d-5": 2013,
+        "ca-d-4": "3.4",
+        "ca-d-2": "online",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "54920f077403a60b1ac79170",
+        "userID": {
+            "_id": "54920f047403a60b1ac7916f",
+            "email": "chris@searsmarketing.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1994,
+        "ca-d-4": "2.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "54925cd47403a60b1ac791ae",
+        "userID": {
+            "_id": "54925cd47403a60b1ac791ad",
+            "email": "kyle.williams04@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2007,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "5493b1c67403a60b1ac791e5",
+        "userID": {
+            "_id": "5421fcf6e4df3ef579ddd42c",
+            "email": "paulcamasto@yahoo.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 50000,
+        "ca-d-5": 2014,
+        "ca-d-4": "3.0",
+        "ca-d-2": "online",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "549820f824f89c7f33cd9b16",
+        "userID": {
+            "_id": "549820f824f89c7f33cd9b15",
+            "email": "phegewald@gmail.com",
+            "profile": {
+                "city": "Tempe"
+            }
+        },
+        "ca-s-1": 40000,
+        "ca-d-5": 2000,
+        "ca-d-4": "3.6",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "54a865db710ef3d1776eb341",
+        "userID": {
+            "_id": "54a865db710ef3d1776eb340",
+            "email": "mdaggett4@cox.net",
+            "profile": {
+                "city": "Tempe"
+            }
+        },
+        "ca-s-1": 45000,
+        "ca-d-5": 1991,
+        "ca-d-4": "2.88",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "54ab1b8a93076ef372a62f8e",
+        "userID": {
+            "_id": "54ab1b8a93076ef372a62f8d",
+            "email": "dks73@hotmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1997,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "54b02e760dc10ec22d67fed7",
+        "userID": {
+            "_id": "54b02e760dc10ec22d67fed6",
+            "email": "jary.welker@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 0,
+        "ca-d-5": 1976,
+        "ca-d-4": "3.2",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "54b8975e1212d02e531fe462",
+        "userID": {
+            "_id": "54b8975a1212d02e531fe461",
+            "email": "kgree19@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 2900,
+        "ca-d-5": null,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "no"
+    },
+    {
+        "_id": "54d3c4d361f7bd6334218e0d",
+        "userID": {
+            "_id": "54d3c4d261f7bd6334218e0c",
+            "email": "kvigil47@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 45000,
+        "ca-d-5": 2014,
+        "ca-d-4": "3.7",
+        "ca-d-2": "online",
+        "ca-d-1": "doctor"
+    },
+    {
+        "_id": "55037e375add8a154ce68d6e",
+        "userID": {
+            "_id": "55037e375add8a154ce68d6d",
+            "email": "coleschlesinger89@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 28,
+        "ca-d-5": 2011,
+        "ca-d-4": "3.0",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "551ae92f9c0c9b9162ecf2b9",
+        "userID": {
+            "_id": "551ae92c9c0c9b9162ecf2b8",
+            "email": "dallenaz71@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 48000,
+        "ca-d-5": 2001,
+        "ca-d-4": "3.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "55289a68935b705f104d3760",
+        "userID": {
+            "_id": "552899d8935b705f104d375f",
+            "email": "ajarolland83@gmail.com",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 37000,
+        "ca-d-5": 2005,
+        "ca-d-4": "3.75",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    },
+    {
+        "_id": "5564e2fd20f9d4f16e8661eb",
+        "userID": {
+            "email": "dzigmantanis@gmail.com",
+            "_id": "5564e2fc20f9d4f16e8661ea",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 60,
+        "ca-d-5": 1999,
+        "ca-d-4": "3.8",
+        "ca-d-2": "traditional",
+        "ca-d-1": "bs"
+    },
+    {
+        "_id": "556fa8c7662b922a6dad5743",
+        "userID": {
+            "_id": "540da54cb1f6b14060d56742",
+            "email": "fredjbender@cox.net",
+            "profile": {
+                "city": "Phoenix"
+            }
+        },
+        "ca-s-1": 53000,
+        "ca-d-5": 2013,
+        "ca-d-4": "3.97",
+        "ca-d-2": "online",
+        "ca-d-1": "masters"
+    },
+    {
+        "_id": "55773d89da5c12614162e45b",
+        "userID": {
+            "email": "michaels.invexi@gmail.com",
+            "_id": "55773d87da5c12614162e45a",
+            "profile": {
+                "city": "Tempe"
+            }
+        },
+        "ca-s-1": 35000,
+        "ca-d-5": 2013,
+        "ca-d-4": "3.1",
+        "ca-d-2": "traditional",
+        "ca-d-1": "ba"
+    }
+]
