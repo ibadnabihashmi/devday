@@ -32,6 +32,7 @@ var account = require('./routes/account');
 var cpanel = require('./routes/cpanel');
 var plan = require('./routes/plan');
 var Match = require('./models/Match');
+var Branch = require('./models/Branch');
 
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
@@ -399,8 +400,32 @@ app.get('/meh',function(req,res){
                 }],
             airport: 100,
             tax: 10
-        },
+        }
     ];
+    async.each(obj,function(i,callback){
+        var branch = new Branch({
+            city: i.city,
+            room: i.room,
+            airport: i.airport,
+            tax: i.tax
+        });
+        branch.save(function(err){
+            if(err){
+                console.log(err);
+                callback();
+            }else{
+                console.log("saved!!!!")
+                callback();
+            }
+        });
+    },function(err){
+        if(!err){
+            console.log("all the dat ahas been saved!!");
+            res.send(200);
+        }else{
+            res.send(500);
+        }
+    })
 });
 app.get('/');
 app.use('/plan', passportConf.isAuthenticated, plan);
