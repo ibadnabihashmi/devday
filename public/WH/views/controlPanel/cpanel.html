@@ -1,0 +1,49 @@
+<div ng-controller="CpCtrl">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="center-align">
+                <h1>Control panel</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4" ng-repeat="item in portfolio">
+                        <div style="padding: 30px;">
+                            <h3><span class="label label-warning" style="position: absolute;">${{item.price}}</span></h3>
+                            <a href="#" class="thumbnail">
+                                <img src="{{item.src}}" alt="..." style="height: 300px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div style="padding: 30px;" class="text-center">
+                            <a href="#" class="thumbnail" style="padding: 115px 0px;" data-toggle="modal" data-target="#myModal">
+                                <h3>add more</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Add new Masterpiece</h4>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body…</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">cancel</button>
+                    <button type="button" class="btn btn-primary">add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
