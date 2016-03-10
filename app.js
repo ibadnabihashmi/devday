@@ -12,6 +12,7 @@ var errorHandler = require('errorhandler');
 var lusca = require('lusca');
 var methodOverride = require('method-override');
 var multer  = require('multer');
+var async = require('async');
 
 var _ = require('lodash');
 var MongoStore = require('connect-mongo')(session);
@@ -30,6 +31,7 @@ var userController = require('./routes/user');
 var account = require('./routes/account');
 var cpanel = require('./routes/cpanel');
 var plan = require('./routes/plan');
+var Match = require('./models/Match');
 
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
@@ -103,6 +105,142 @@ app.get('/user',function(req,res){
     res.send(200,{
         user:req.user
     });
+});
+app.get('/bleh',function(req,res){
+    var obj = [
+        {
+            date:'15 march 2016',
+            t1:'IND',
+            t2:'NZ',
+            venue:'Nagpur'
+        },
+        {
+            date:'16 march 2016',
+            t1:'WI',
+            t2:'ENG',
+            venue:'Mumbai'
+        },
+        {
+            date:'16 march 2016',
+            t1:'PAK',
+            t2:'Q1A',
+            venue:'Kolkata'
+        },
+        {
+            date:'17 march 2016',
+            t1:'SL',
+            t2:'Q1B',
+            venue:'Kolkata'
+        },
+        {
+            date:'19 march 2016',
+            t1:'AUS',
+            t2:'NZ',
+            venue:'Dharamsala'
+        },
+        {
+            date:'18 march 2016',
+            t1:'RSA',
+            t2:'ENG',
+            venue:'Mumbai'
+        },
+        {
+            date:'19 march 2016',
+            t1:'PAK',
+            t2:'IND',
+            venue:'Dharamsala'
+        },
+        {
+            date:'20 march 2016',
+            t1:'RSA',
+            t2:'Q1B',
+            venue:'Mumbai'
+        },
+        {
+            date:'20 march 2016',
+            t1:'SL',
+            t2:'WI',
+            venue:'Bengaluru'
+        },
+        {
+            date:'21 march 2016',
+            t1:'AUS',
+            t2:'Q1A',
+            venue:'Bengaluru'
+        },
+        {
+            date:'22nd march 2016',
+            t1:'PAK',
+            t2:'NZ',
+            venue:'Mohali'
+        },
+        {
+            date:'23 march 2016',
+            t1:'ENG',
+            t2:'Q1B',
+            venue:'New Delhi'
+        },
+        {
+            date:'23 march 2016',
+            t1:'IND',
+            t2:'Q1A',
+            venue:'Bengaluru'
+        },
+        {
+            date:'25 march 2016',
+            t1:'PAK',
+            t2:'AUS',
+            venue:'Mohali'
+        },
+        {
+            date:'25 march 2016',
+            t1:'RSA',
+            t2:'WI',
+            venue:'Nagpur'
+        }
+        ,{
+            date:'26 march 2016',
+            t1:'NZ',
+            t2:'Q1A',
+            venue:'Kolkata'
+        },
+        {
+            date:'26 march 2016',
+            t1:'ENG',
+            t2:'SL',
+            venue:'New Delhi'
+        },
+        {
+            date:'27 march 2016',
+            t1:'IND',
+            t2:'AUS',
+            venue:'Mohali'
+        }
+    ];
+    async.each(obj,function(i,callback){
+        var match = new Match({
+            date: i.date,
+            team1: i.t1,
+            team2: i.t2,
+            venue: i.venue
+        });
+        match.save(function(err){
+            if(err){
+                console.log(err);
+                callback();
+            }else{
+                console.log("saved!!!!")
+                callback();
+            }
+        });
+    },function(err){
+        if(!err){
+            console.log("all the dat ahas been saved!!");
+            res.send(200);
+        }else{
+            res.send(500);
+        }
+    })
 });
 app.use('/plan', passportConf.isAuthenticated, plan);
 app.get('/login', userController.getLogin);
