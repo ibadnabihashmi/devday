@@ -242,6 +242,167 @@ app.get('/bleh',function(req,res){
         }
     })
 });
+app.get('/meh',function(req,res){
+    var obj = [
+        {
+            city: "Nagpur",
+            room:[{
+                type: "Classic King Room",
+                price: 2000,
+                availableCount: 4
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 3000,
+                    availableCount: 3
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 8000,
+                    availableCount: 2
+                },
+
+                {
+                    type: "Suite",
+                    price: 1000,
+                    availableCount: 1
+                }],
+            airport: 600,
+            tax: 20
+        },
+        {
+            city: "New Delhi",
+            room:[{
+                type: "Classic King Room",
+                price: 8000,
+                availableCount: 2
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 5000,
+                    availableCount: 2
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 1000,
+                    availableCount: 2
+                },
+
+                {
+                    type: "Suite",
+                    price: 2000,
+                    availableCount: 2
+                }],
+            airport: 60,
+            tax: 30
+        },
+        {
+            city: "Mumbai",
+            room:[{
+                type: "Classic King Room",
+                price: 2000,
+                availableCount: 40
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 300,
+                    availableCount: 30
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 800,
+                    availableCount: 20
+                },
+
+                {
+                    type: "Suite",
+                    price: 100,
+                    availableCount: 10
+                }],
+            airport: 600,
+            tax: 20
+        },
+        {
+            city: "Kolkata",
+            room:[{
+                type: "Classic King Room",
+                price: 2000,
+                availableCount: 4
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 13000,
+                    availableCount: 31
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 18000,
+                    availableCount: 21
+                },
+
+                {
+                    type: "Suite",
+                    price: 11000,
+                    availableCount: 11
+                }],
+            airport: 600,
+            tax: 20
+        },
+        {
+            city: "Dharamsala",
+            room:[{
+                type: "Classic King Room",
+                price: 2000,
+                availableCount: 1
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 1000,
+                    availableCount: 2
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 2000,
+                    availableCount: 3
+                },
+
+                {
+                    type: "Suite",
+                    price: 3000,
+                    availableCount: 4
+                }],
+            airport: 100,
+            tax: 10
+        },
+        {
+            city: "Mohali",
+            room:[{
+                type: "Classic King Room",
+                price: 1000,
+                availableCount: 7
+            },
+                {
+                    type: "Presedential Suite",
+                    price: 2000,
+                    availableCount: 2
+                },
+                {
+                    type: "Deluxe Twin Room",
+                    price: 6000,
+                    availableCount: 10
+                },
+
+                {
+                    type: "Suite",
+                    price: 100,
+                    availableCount: 5
+                }],
+            airport: 100,
+            tax: 10
+        },
+    ];
+});
+app.get('/');
 app.use('/plan', passportConf.isAuthenticated, plan);
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
