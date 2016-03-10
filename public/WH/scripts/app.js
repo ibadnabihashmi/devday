@@ -1,6 +1,6 @@
 
 angular.module(
-    'DD',
+    'showcase',
     [
         'ngRoute',
         'ngSanitize',

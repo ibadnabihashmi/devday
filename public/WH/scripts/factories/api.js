@@ -1,4 +1,4 @@
-angular.module('DD').factory('Api', ['$http', function ($http) {
+angular.module('showcase').factory('Api', ['$http', function ($http) {
 
 //  var hosts = {
 //    user: '/user/',

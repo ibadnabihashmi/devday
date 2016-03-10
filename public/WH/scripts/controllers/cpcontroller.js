@@ -1,4 +1,4 @@
-angular.module('DD').controller('CpCtrl', function ($scope,$http,$modal,$log) {
+angular.module('showcase').controller('CpCtrl', function ($scope,$http,$modal,$log) {
     $scope.portfolio = [];
     $scope.animationsEnabled = true;
 

@@ -1,4 +1,4 @@
-angular.module('DD').factory('fetchService', function($http, $location){
+angular.module('showcase').factory('fetchService', function($http, $location){
     return{
         fetchQuestion: function(){
             return $http.get('/explore/question?qid='+$location.search().qid).then(function(res){

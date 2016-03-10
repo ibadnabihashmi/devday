@@ -1,4 +1,4 @@
-angular.module('DD').controller('AccountCtrl', function ($scope,$http, sessionService) {
+angular.module('showcase').controller('AccountCtrl', function ($scope,$http, sessionService) {
     sessionService.getSessionInfo().then(function(response) {
         $scope.user=response;
     });

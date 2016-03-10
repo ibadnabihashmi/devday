@@ -1,8 +1,11 @@
-angular.module('DD').config(function ($routeProvider, $locationProvider) {
+angular.module('showcase').config(function ($routeProvider, $locationProvider) {
 
     $routeProvider
         .when('/account', {
             templateUrl: '/WH/views/account/profile.html'
+        })
+        .when('/plan', {
+            templateUrl: '/WH/views/account/setplan.html'
         })
         .when('/controlPanel', {
             templateUrl: '/WH/views/controlPanel/cpanel.html'
