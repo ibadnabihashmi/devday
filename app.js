@@ -29,6 +29,7 @@ var homeController = require('./controllers/home');
 var userController = require('./routes/user');
 var account = require('./routes/account');
 var cpanel = require('./routes/cpanel');
+var plan = require('./routes/plan');
 
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
@@ -103,7 +104,7 @@ app.get('/user',function(req,res){
         user:req.user
     });
 });
-
+app.use('/plan', passportConf.isAuthenticated, plan);
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
